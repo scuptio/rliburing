@@ -1,0 +1,12 @@
+[package]
+name = "rliburing"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+bindgen = { version = "0.70.1" , features = ["experimental"]}
+project-root = "0.2.2"
+pkg-config = {version = "0.3.31"}
+
+[dependencies]
+libc = "0.2.164"
