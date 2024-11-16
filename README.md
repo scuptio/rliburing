@@ -7,5 +7,5 @@
 install liburing
 
 ```shell
-sudo apt-get install -y liburing-dev
+sudo apt-get install -y liburing-dev clang
 ```
